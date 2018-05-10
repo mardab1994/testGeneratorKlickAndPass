@@ -23,7 +23,7 @@ public class MainController {
 		}
 		LoginController loginController = loader.getController();
 		loginController.setMainController(this);
-		//
+		// load
 		setScreen(pane);
 	}
 
